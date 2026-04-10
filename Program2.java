@@ -1,8 +1,8 @@
 import java.util.Scanner; 
 public class Program2{
 
-        static int add (int a, int b) {
-        return a + b;
+        static int add (int a, double b) {
+        return a + (int)b;
     }
    
     public static void main(String[] args) {
